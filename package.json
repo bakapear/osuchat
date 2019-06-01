@@ -1,0 +1,24 @@
+{
+  "name": "osuchat",
+  "version": "1.0.0",
+  "description": "makes the osu chat appear in a discord channel via webhooks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bakapear/osuchat.git"
+  },
+  "author": "bakapear",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bakapear/osuchat/issues"
+  },
+  "homepage": "https://github.com/bakapear/osuchat#readme",
+  "dependencies": {
+    "got": "^9.6.0",
+    "irc": "^0.5.2"
+  }
+}
