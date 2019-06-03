@@ -7,6 +7,7 @@ let client = new irc.Client('irc.ppy.sh', process.env.NAME, {
 })
 
 client.addListener('message', function (from, to, message) {
+  message = message.replace(/@everyone|@here/g, '@everybody')
   post(from, message)
 })
 
